@@ -72,7 +72,7 @@ const App = () => {
                         <View>
                                 <Image
                                     source={require('./assets/AppLogo_white.png')}
-                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33, }} // Adjust the width and height as needed
+                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33.4, }} // Adjust the width and height as needed
                                     />
                         </View>
                       )
@@ -97,7 +97,7 @@ const App = () => {
                         <View>
                                 <Image
                                     source={require('./assets/AppLogo_white.png')}
-                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33, }} // Adjust the width and height as needed
+                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33.4, }} // Adjust the width and height as needed
                                     />
                         </View>
                       )
@@ -122,7 +122,7 @@ const App = () => {
                         <View>
                                 <Image
                                     source={require('./assets/AppLogo_white.png')}
-                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33, }} // Adjust the width and height as needed
+                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33.4, }} // Adjust the width and height as needed
                                     />
                         </View>
                       )
@@ -147,7 +147,7 @@ const App = () => {
                         <View>
                                 <Image
                                     source={require('./assets/AppLogo_white.png')}
-                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33, }} // Adjust the width and height as needed
+                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33.4, }} // Adjust the width and height as needed
                                     />
                         </View>
                       )
@@ -172,7 +172,7 @@ const App = () => {
                         <View>
                                 <Image
                                     source={require('./assets/AppLogo_white.png')}
-                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33, }} // Adjust the width and height as needed
+                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33.4, }} // Adjust the width and height as needed
                                     />
                         </View>
                       )
@@ -197,7 +197,7 @@ const App = () => {
                         <View>
                                 <Image
                                     source={require('./assets/AppLogo_white.png')}
-                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33, }} // Adjust the width and height as needed
+                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33.4, }} // Adjust the width and height as needed
                                     />
                         </View>
                       )
@@ -222,7 +222,7 @@ const App = () => {
                         <View>
                                 <Image
                                     source={require('./assets/AppLogo_white.png')}
-                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33, }} // Adjust the width and height as needed
+                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33.4, }} // Adjust the width and height as needed
                                     />
                         </View>
                       )
@@ -247,7 +247,7 @@ const App = () => {
                         <View>
                                 <Image
                                     source={require('./assets/AppLogo_white.png')}
-                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33, }} // Adjust the width and height as needed
+                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33.4, }} // Adjust the width and height as needed
                                     />
                         </View>
                       )
@@ -272,7 +272,7 @@ const App = () => {
                         <View>
                                 <Image
                                     source={require('./assets/AppLogo_white.png')}
-                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33, }} // Adjust the width and height as needed
+                                    style={{marginLeft:0,marginRight:10,width: 63, height: 33.4, }} // Adjust the width and height as needed
                                     />
                         </View>
                       )

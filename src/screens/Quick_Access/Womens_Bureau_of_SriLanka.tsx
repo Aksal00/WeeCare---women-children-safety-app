@@ -46,7 +46,7 @@ const Womens_Bureau_of_SriLanka = ({navigation}: Womens_Bureau_of_SriLanka_Props
                             <TouchableOpacity style={styles.Call_Button} onPress={()=>openURL("tel:0112186055")} disabled={!canOpenTel_1}>
                                 <Image
                                     source={require('../../../assets/mobile_receiver_white.png')}
-                                    style={{marginLeft:10,marginRight:12,width: 20, height: 25, }} // Adjust the width and height as needed
+                                    style={{marginLeft:10,marginRight:12,width: 20, height: 25,alignSelf:'center' }} // Adjust the width and height as needed
                                     />
                                 
                                 <Text style={styles.Normal_Text_White}>0112187270</Text>
@@ -58,7 +58,7 @@ const Womens_Bureau_of_SriLanka = ({navigation}: Womens_Bureau_of_SriLanka_Props
                             <TouchableOpacity style={styles.Call_Button} onPress={()=>openURL("tel:0112187249")} disabled={!canOpenTel_2}>
                                 <Image
                                     source={require('../../../assets/fax.png')}
-                                    style={{marginLeft:10,marginRight:12,width: 25, height: 25, }} // Adjust the width and height as needed
+                                    style={{marginLeft:10,marginRight:12,width: 25, height: 25,alignSelf:'center' }} // Adjust the width and height as needed
                                     />
                                 
                                 <Text style={styles.Normal_Text_White}>0112187270</Text>
@@ -126,15 +126,16 @@ const styles = StyleSheet.create({
         fontWeight:"bold"
     },
     Normal_Text:{
-        fontSize:0.044*Dimensions.get('window').width,
+        fontSize:0.034*Dimensions.get('window').width,
         paddingHorizontal:12,
         paddingVertical:12,
         fontWeight: 'bold'
     },
     Normal_Text_White:{
-        fontSize:19,
+        fontSize:0.03*Dimensions.get('window').width,
         color: 'white',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        alignSelf:'center'
     },
     Normal_Text_White_2:{
         fontSize:0.03*Dimensions.get('window').width,
@@ -175,9 +176,11 @@ const styles = StyleSheet.create({
         borderRadius : 30,
         alignContent: 'center',
         alignSelf: 'center',
+        justifyContent:'center',
         flexDirection: 'row',
         backgroundColor: '#89008C',
-        resizeMode:'cover'
+        resizeMode:'cover',
+        //paddingLeft:0.01*Dimensions.get('window').width,
     },
     Web_Button:{
         //flex:1,
@@ -189,6 +192,7 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         flexDirection: 'row',
         backgroundColor: '#89008C',
-        resizeMode:'cover'
+        resizeMode:'cover',
+        justifyContent:'center',
     }
 })

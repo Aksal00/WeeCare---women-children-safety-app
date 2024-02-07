@@ -126,15 +126,16 @@ const styles = StyleSheet.create({
         fontWeight:"bold"
     },
     Normal_Text:{
-        fontSize:0.044*Dimensions.get('window').width,
+        fontSize:0.034*Dimensions.get('window').width,
         paddingHorizontal:12,
         paddingVertical:12,
         fontWeight: 'bold'
     },
     Normal_Text_White:{
-        fontSize:19,
+        fontSize:0.03*Dimensions.get('window').width,
         color: 'white',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        alignSelf:'center'
     },
     Normal_Text_White_2:{
         fontSize:0.03*Dimensions.get('window').width,
@@ -177,7 +178,8 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         flexDirection: 'row',
         backgroundColor: '#89008C',
-        resizeMode:'cover'
+        resizeMode:'cover',
+        justifyContent:'center'
     },
     Web_Button:{
         //flex:1,
@@ -189,6 +191,7 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         flexDirection: 'row',
         backgroundColor: '#89008C',
-        resizeMode:'cover'
+        resizeMode:'cover',
+        justifyContent:'center'
     }
 })

@@ -7,14 +7,14 @@ export default function Footer() {
     return (
         
         <LinearGradient colors={['#C205A3', '#A200A6', '#98009B', '#98009B']} style={[styles.Footer_bg,styles.footer_Shadow]} >
-            <View style={{alignContent:'center',justifyContent:'center',flexDirection:'row',paddingHorizontal:5,paddingVertical:10}}>
+            <View style={{alignContent:'center',justifyContent:'center',flexDirection:'row',paddingHorizontal:5,paddingVertical:5}}>
                 <Image
                 //source={require('../assets/Government_logo.png')}
                 //style={{width: 0.1*Dimensions.get('window').width, height: 0.1*Dimensions.get('window').width, }} // Adjust the width and height as needed
                 />
                 <Image
                 source={require('../assets/usj_logo.png')}
-                style={{width: 0.12*Dimensions.get('window').width, height: 0.12*Dimensions.get('window').width,marginHorizontal:0.03*Dimensions.get('window').width }} // Adjust the width and height as needed
+                style={{width: 0.12*Dimensions.get('window').width, height: 0.12*Dimensions.get('window').width,marginHorizontal:0.03*Dimensions.get('window').width ,alignSelf: 'center'}} // Adjust the width and height as needed
                 />
                 <Text style= {styles.Text_Style_1}>Powered by,</Text>
                 <Text style= {styles.Text_Style_2}>{"\n"}Department of Computer Science,{"\n"}University of Sri Jayewardenepura </Text>
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
         //paddingTop: 0.80*Dimensions.get('window').height,
         alignSelf:'center',
         //justify:'flex-end',
-        height:0.08*Dimensions.get('window').height,
+        height:0.18*Dimensions.get('window').width,
         width: Dimensions.get('window').width,
         //backgroundColor: '#89008C',
         //borderTopRightRadius:30,
@@ -45,14 +45,18 @@ const styles = StyleSheet.create({
     Text_Style_1:{
         fontSize: 0.03*Dimensions.get('window').width,
         fontWeight: 'bold',
-        color:'white'
+        color:'white',
+        paddingVertical: 5,
+        marginVertical:5
         
 
     },
     Text_Style_2:{
         fontSize: 0.03*Dimensions.get('window').width,
         paddingLeft:2,
-        color:'white'
+        color:'white',
+        paddingVertical: 5,
+        marginVertical:5
         
 
     },
