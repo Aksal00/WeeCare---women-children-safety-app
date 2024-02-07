@@ -67,10 +67,6 @@ const National_Child_Protection_Authority = ({navigation}: National_Child_Protec
                         <View style={{flexDirection:'row',flexWrap:'wrap', marginTop: 20,marginHorizontal:30}}>
                             <Text style={styles.Normal_Text}>E-mail : </Text>
                             <TouchableOpacity style={styles.Mail_Button} onPress={()=>openURL("mailto:ncpa@childprotection.gov.lk")} disabled={!canOpenEmail}>
-                                <Image
-                                    source={require('../../../assets/mail.png')}
-                                    style={{marginVertical:3,marginLeft:20,marginRight:12,width: 25, height: 25, }} // Adjust the width and height as needed
-                                    />
                                 
                                 <Text style={styles.Normal_Text_White_2}>ncpa@childprotection.gov.lk</Text>
                             </TouchableOpacity>
@@ -141,7 +137,7 @@ const styles = StyleSheet.create({
         fontSize:0.03*Dimensions.get('window').width,
         color: 'white',
         fontWeight: 'bold',
-        marginRight:15,
+        marginHorizontal:15,
         alignSelf: 'center'
     },
     Normal_Text_White_3:{

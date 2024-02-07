@@ -29,21 +29,13 @@ export default function Footer() {
 const styles = StyleSheet.create({
     Footer_bg:{
         position: 'relative',
-        //bottom:0,
-        //marginTop: 0.90*Dimensions.get('window').height,
-        //paddingTop: 0.80*Dimensions.get('window').height,
         alignSelf:'center',
-        //justify:'flex-end',
         height:0.18*Dimensions.get('window').width,
         width: Dimensions.get('window').width,
-        //backgroundColor: '#89008C',
-        //borderTopRightRadius:30,
-        //borderTopLeftRadius:30,
-
         
     },
     Text_Style_1:{
-        fontSize: 0.03*Dimensions.get('window').width,
+        fontSize: 0.014*Dimensions.get('window').height,
         fontWeight: 'bold',
         color:'white',
         paddingVertical: 5,
@@ -52,7 +44,7 @@ const styles = StyleSheet.create({
 
     },
     Text_Style_2:{
-        fontSize: 0.03*Dimensions.get('window').width,
+        fontSize: 0.014*Dimensions.get('window').height,
         paddingLeft:2,
         color:'white',
         paddingVertical: 5,

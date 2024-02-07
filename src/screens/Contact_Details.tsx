@@ -309,12 +309,14 @@ const styles = StyleSheet.create({
     },
     Submit_Button:{
         //flex:1,
-        paddingVertical: 20,
+        paddingTop: 20,
+        paddingBottom:40,
         height: 60,
         width : 200,
         borderRadius : 100,
         alignContent: 'center',
-        alignSelf: 'center'
+        alignSelf: 'center',
+        justifyContent:'center'
     },
     Contact_List_Button:{
         //flex:1,
