@@ -67,8 +67,11 @@ const Ministry_of_Women = ({navigation}: Ministry_of_Women_Props) => {
                         <View style={{flexDirection:'row',flexWrap:'wrap', marginTop: 20,marginHorizontal:30}}>
                             <Text style={styles.Normal_Text}>E-mail : </Text>
                             <TouchableOpacity style={styles.Mail_Button} onPress={()=>openURL("mailto:secretary@childwomenmin.gov.lk")} disabled={!canOpenEmail}>
-                                
-                                <Text style={styles.Normal_Text_White_2}>secretary@childwomenmin.gov.lk</Text>
+                                <Image
+                                    source={require('../../../assets/mail.png')}
+                                    style={{marginVertical:3,marginLeft:15,width: 25, height: 25, }} // Adjust the width and height as needed
+                                    />
+                                <Text style={styles.Normal_Text_White_2}>secretary@child{"\n"}womenmin.gov.lk</Text>
                             </TouchableOpacity>
                             
                         </View>

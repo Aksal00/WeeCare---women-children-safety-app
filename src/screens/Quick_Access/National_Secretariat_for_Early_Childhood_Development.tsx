@@ -67,8 +67,11 @@ const National_Secretariat_for_Early_Childhood_Development = ({navigation}: Nati
                         <View style={{flexDirection:'row',flexWrap:'wrap', marginTop: 20,marginHorizontal:30}}>
                             <Text style={styles.Normal_Text}>E-mail : </Text>
                             <TouchableOpacity style={styles.Mail_Button} onPress={()=>openURL("mailto:children.secretariatsl@gmail.com")} disabled={!canOpenEmail}>
-                                
-                                <Text style={styles.Normal_Text_White_2}>children.secretariatsl@gmail.com</Text>
+                                <Image
+                                    source={require('../../../assets/mail.png')}
+                                    style={{marginVertical:3,marginLeft:15,width: 25, height: 25, }} // Adjust the width and height as needed
+                                    />
+                                <Text style={styles.Normal_Text_White_2}>children.secretariatsl{"\n"}@gmail.com</Text>
                             </TouchableOpacity>
                             
                         </View>

@@ -31,8 +31,14 @@ import * as Location from 'expo-location'
        let receiver_number_1 = numberParam_1.toString()
        let receiver_number_2 = numberParam_2.toString()
        let receiver_number_3 = numberParam_3.toString()
-  
-       const receiver_numbers=[receiver_number_1,receiver_number_2,receiver_number_3]
+      const all_receiver_number=[receiver_number_1,receiver_number_2,receiver_number_3]
+       let receiver_numbers: string[]=[]
+      for( let i=0;i<all_receiver_number.length;i++){
+        if(all_receiver_number[i])
+        {
+          receiver_numbers.push(all_receiver_number[i])
+        }
+      }
        let latitude =location.coords.latitude
        let longitude = location.coords.longitude
   

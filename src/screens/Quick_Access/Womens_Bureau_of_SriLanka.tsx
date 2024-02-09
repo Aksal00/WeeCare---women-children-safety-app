@@ -67,7 +67,11 @@ const Womens_Bureau_of_SriLanka = ({navigation}: Womens_Bureau_of_SriLanka_Props
                         <View style={{flexDirection:'row',flexWrap:'wrap', marginTop: 20,marginHorizontal:30}}>
                             <Text style={styles.Normal_Text}>E-mail : </Text>
                             <TouchableOpacity style={styles.Mail_Button} onPress={()=>openURL("mailto:secretary@childwomenmin.gov.lk")} disabled={!canOpenEmail}>
-                                <Text style={styles.Normal_Text_White_2}>womensbureau.wa@gmail.com</Text>
+                                <Image
+                                    source={require('../../../assets/mail.png')}
+                                    style={{marginVertical:3,marginLeft:15,width: 25, height: 25, }} // Adjust the width and height as needed
+                                    />
+                                <Text style={styles.Normal_Text_White_2}>womensbureau.wa{"\n"}@gmail.com</Text>
                             </TouchableOpacity>
                             
                         </View>

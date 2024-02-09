@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         
         <LinearGradient colors={['#C205A3', '#A200A6', '#98009B', '#98009B']} style={[styles.Footer_bg,styles.footer_Shadow]} >
-            <View style={{alignContent:'center',justifyContent:'center',flexDirection:'row',paddingHorizontal:5,paddingVertical:5}}>
+            <View style={{flexDirection:'row'}}>
                 <Image
                 //source={require('../assets/Government_logo.png')}
                 //style={{width: 0.1*Dimensions.get('window').width, height: 0.1*Dimensions.get('window').width, }} // Adjust the width and height as needed
@@ -32,23 +32,24 @@ const styles = StyleSheet.create({
         alignSelf:'center',
         height:0.18*Dimensions.get('window').width,
         width: Dimensions.get('window').width,
+        //alignSelf:'center',
+        alignContent:'center',
+        justifyContent:'center',
+        alignItems:'center'
         
     },
     Text_Style_1:{
-        fontSize: 0.014*Dimensions.get('window').height,
+        fontSize: 0.013*Dimensions.get('window').height,
         fontWeight: 'bold',
         color:'white',
-        paddingVertical: 5,
-        marginVertical:5
-        
+            
 
     },
     Text_Style_2:{
-        fontSize: 0.014*Dimensions.get('window').height,
+        fontSize: 0.013*Dimensions.get('window').height,
         paddingLeft:2,
         color:'white',
-        paddingVertical: 5,
-        marginVertical:5
+        
         
 
     },

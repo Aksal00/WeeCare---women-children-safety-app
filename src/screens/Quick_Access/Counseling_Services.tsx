@@ -67,7 +67,11 @@ const Counseling_Services = ({navigation}: Counseling_Services_Props) => {
                         <View style={{flexDirection:'row',flexWrap:'wrap', marginTop: 20,marginHorizontal:30}}>
                             <Text style={styles.Normal_Text}>E-mail : </Text>
                             <TouchableOpacity style={styles.Mail_Button} onPress={()=>openURL("mailto:ncounselingcenter@gmail.com")} disabled={!canOpenEmail}>
-                                <Text style={styles.Normal_Text_White_2}>ncounselingcenter@gmail.com</Text>
+                                <Image
+                                    source={require('../../../assets/mail.png')}
+                                    style={{marginVertical:3,marginLeft:15,width: 25, height: 25, }} // Adjust the width and height as needed
+                                    />
+                                <Text style={styles.Normal_Text_White_2}>ncounselingcenter{"\n"}@gmail.com</Text>
                             </TouchableOpacity>
                             
                         </View>
@@ -81,10 +85,10 @@ const Counseling_Services = ({navigation}: Counseling_Services_Props) => {
                             <TouchableOpacity style={styles.Web_Button} onPress={()=>openURL("https://counseling.stateminsamurdhi.gov.lk")}>
                                 <Image
                                     source={require('../../../assets/web.png')}
-                                    style={{marginVertical:3,marginLeft:15,marginRight:5,width: 25, height: 25, }} // Adjust the width and height as needed
+                                    style={{marginVertical:3,marginLeft:15,marginRight:15,width: 25, height: 25, }} // Adjust the width and height as needed
                                     />
                                 
-                                <Text style={styles.Normal_Text_White_3}>counseling.stateminsamurdhi.gov.lk</Text>
+                                <Text style={styles.Normal_Text_White_3}>counseling.statemin{"\n"}samurdhi.gov.lk</Text>
                             </TouchableOpacity>
                             
                         </View>
