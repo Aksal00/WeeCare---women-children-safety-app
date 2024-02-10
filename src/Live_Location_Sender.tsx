@@ -34,7 +34,7 @@ import * as Location from 'expo-location'
       const all_receiver_number=[receiver_number_1,receiver_number_2,receiver_number_3]
        let receiver_numbers: string[]=[]
       for( let i=0;i<all_receiver_number.length;i++){
-        if(all_receiver_number[i])
+        if(all_receiver_number[i].length>=10)
         {
           receiver_numbers.push(all_receiver_number[i])
         }
